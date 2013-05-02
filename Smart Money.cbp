@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Smart Money" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Smart Money" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Smart Money" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Winvalid-pch" />
+			<Add option="-include wx_pch.h" />
+			<Add option="-DWX_PRECOMP" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="NewRegisterForm.cpp" />
+		<Unit filename="NewRegisterForm.h" />
+		<Unit filename="Smart_MoneyApp.cpp" />
+		<Unit filename="Smart_MoneyApp.h" />
+		<Unit filename="Smart_MoneyMain.cpp" />
+		<Unit filename="Smart_MoneyMain.h" />
+		<Unit filename="TransactionForm.cpp" />
+		<Unit filename="TransactionForm.h" />
+		<Unit filename="admin.cpp" />
+		<Unit filename="admin.h" />
+		<Unit filename="bankaccounts.cpp" />
+		<Unit filename="bankaccounts.h" />
+		<Unit filename="faculty.cpp" />
+		<Unit filename="faculty.h" />
+		<Unit filename="guardian.cpp" />
+		<Unit filename="guardian.h" />
+		<Unit filename="mydbsingleton.cpp" />
+		<Unit filename="mydbsingleton.h" />
+		<Unit filename="myfunctionclass.cpp" />
+		<Unit filename="myfunctionclass.h" />
+		<Unit filename="student.cpp" />
+		<Unit filename="student.h" />
+		<Unit filename="user.cpp" />
+		<Unit filename="user.h" />
+		<Unit filename="wx_pch.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="wxsmith/NewRegisterForm2.wxs" />
+		<Unit filename="wxsmith/Smart_Moneyframe.wxs" />
+		<Unit filename="wxsmith/TransactionForm.wxs" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="Smart_MoneyApp.cpp" main="Smart_MoneyFrame" init_handlers="necessary" language="CPP">
+					<load_resource file="NewUserForm.xrc" />
+					<load_resource file="NewRegisterForm.xrc" />
+					<load_resource file="TransactionForm.xrc" />
+				</gui>
+				<resources>
+					<wxFrame wxs="wxsmith/Smart_Moneyframe.wxs" src="Smart_MoneyMain.cpp" hdr="Smart_MoneyMain.h" name="Smart_MoneyFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/NewRegisterForm2.wxs" src="NewRegisterForm.cpp" hdr="NewRegisterForm.h" xrc="NewRegisterForm.xrc" name="NewRegisterForm" language="CPP" />
+					<wxFrame wxs="wxsmith/TransactionForm.wxs" src="TransactionForm.cpp" hdr="TransactionForm.h" xrc="TransactionForm.xrc" name="TransactionForm" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

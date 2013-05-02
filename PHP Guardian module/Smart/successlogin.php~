@@ -1,0 +1,66 @@
+<?php             
+
+session_start(); 
+$sroll =$_SESSION['srollno'];
+$sn =$_SESSION['sname'];
+?>
+<html>
+<head>
+<title>Transaction History of your ward</title>
+</head>
+<body>
+<h1>Smart Money for VITIANS</h1>
+</br>Guardian Portal to monitor ward transaction activities.
+<?php
+if(isset($_GET['msg'])) {
+	echo '<h3>' . $_GET['msg'] . '</h3>';
+	unset($_GET['msg']); 
+}
+?>
+<br />
+
+ <?php 
+ if($sn!=""){
+ // Connects to your Database 
+ mysql_connect("localhost", "root", "root") or die(mysql_error()); 
+ mysql_select_db("SmartMoney") or die(mysql_error()); 
+ 
+ $sql = "SELECT `Registration_number`, `Guardian_name`, `Guardian_id`, `Guardian_contact`, `user_id` FROM `student` WHERE `Guardian_id`='$sn'";
+ $data1=mysql_query($sql); 
+ $info1=mysql_fetch_array( $data1 );
+ //student id
+ $studentId=$info1['user_id'];
+ $guardian=$info1['Guardian_name'];
+ Print "<a href=logout.php>Logout</a>";
+ Print "</br><b>Hello Mr.".$guardian."</b>";
+ Print "</br>Your ward student id is:".$studentId;
+
+// now fetch account number of the student
+ $sql = "SELECT `Account_number`, `User_id`, `Balance` FROM `accounts` WHERE `User_id`='$studentId'";
+ $data1=mysql_query($sql); 
+ $info1=mysql_fetch_array( $data1 );
+	$wardAcc=$info1['Account_number'];
+
+ Print "</br>Your ward account number is:".$wardAcc;	
+ $data = mysql_query("SELECT * FROM `tansactionHistory` WHERE `FrmAccount`='$wardAcc' OR `ToAccount` = '$wardAcc'") 
+ or die(mysql_error()); 
+ Print "<table border cellpadding=3>"; 
+ Print "<td><b>From Account</b></td>";
+ Print "<td><b>To Account</b></td>";
+ Print "<td><b>Amount</b></td>";
+ Print "<td><b>Description</b></td>";
+ while($info = mysql_fetch_array( $data )) 
+ { 
+ Print "<tr>"; 
+ Print "<td>".$info['FrmAccount'] . "</td> "; 
+ Print "<td>".$info['ToAccount'] . "</td> ";
+ Print "<td>".$info['Amount'] . " </td>";
+ Print "<td>".$info['Description'] . "</td>";
+ Print "</tr>"; 
+ } 
+ Print "</table>"; 
+ }
+ else
+ Print "</br> Please login first";
+ ?> 
+</body>

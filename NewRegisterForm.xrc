@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxFrame" name="NewRegisterForm">
+		<title>New User Form</title>
+		<centered>1</centered>
+		<icon stock_id="wxART_ADD_BOOKMARK" stock_client="wxART_OTHER" />
+		<size>788,636</size>
+		<style>wxDEFAULT_FRAME_STYLE|wxSYSTEM_MENU|wxFRAME_NO_TASKBAR</style>
+		<object class="wxPanel" name="ID_PANEL_REGISTER">
+			<pos>96,224d</pos>
+			<size>800,1024d</size>
+			<object class="wxStaticText" name="ID_STATICTEXT1">
+				<label>Registration Form</label>
+				<pos>120,16</pos>
+				<size>128,17</size>
+				<font>
+					<size>14</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>roman</family>
+					<face>Times New Roman</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2">
+				<label>First Name</label>
+				<pos>32,64</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_FIRSTNAME">
+				<pos>168,56</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3">
+				<label>Last Name</label>
+				<pos>32,104</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_LASTNAME">
+				<pos>168,96</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4">
+				<label>Address</label>
+				<pos>32,144</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_ADDRESS">
+				<pos>168,136</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT5">
+				<label>City</label>
+				<pos>32,184</pos>
+				<size>56,17</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_CITY">
+				<pos>168,176</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT6">
+				<label>State</label>
+				<pos>32,224</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_STATE">
+				<pos>168,216</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT7">
+				<label>PIN</label>
+				<pos>32,264</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_PIN">
+				<pos>168,256</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT8">
+				<label>Mobile</label>
+				<pos>32,304</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_MOBILE">
+				<pos>168,296</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT9">
+				<label>Email</label>
+				<pos>32,344</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_EMAIL">
+				<pos>168,336</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT10">
+				<label>Password</label>
+				<pos>32,384</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_PASSWORD">
+				<pos>168,376</pos>
+				<size>184,27</size>
+				<style>wxTE_PASSWORD</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT11">
+				<label>Transection Pin</label>
+				<pos>32,424</pos>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_TRANSACTIONPIN">
+				<pos>168,416</pos>
+				<size>184,27</size>
+				<style>wxTE_PASSWORD</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT12">
+				<label>Blood Group</label>
+				<pos>32,464</pos>
+				<size>104,17</size>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_BLOOOUP">
+				<pos>168,456</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT13">
+				<label>Type</label>
+				<pos>32,496</pos>
+				<size>120,17</size>
+			</object>
+			<object class="wxChoice" name="ID_CHOICE_TYPE">
+				<content>
+					<item>Student</item>
+					<item>Faculty</item>
+					<item>Guardian</item>
+				</content>
+				<selection>3</selection>
+				<pos>168,488</pos>
+				<size>136,29</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON_SUBMT">
+				<label>Submit</label>
+				<pos>248,592</pos>
+				<size>104,29</size>
+				<fg>wxSYS_COLOUR_WINDOW</fg>
+				<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+				<font>
+					<size>15</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<face>Nimbus Roman No9 L</face>
+				</font>
+			</object>
+			<object class="wxButton" name="ID_BUTTON_RESET">
+				<label>Reset</label>
+				<pos>40,592</pos>
+				<size>104,29</size>
+				<fg>wxSYS_COLOUR_WINDOW</fg>
+				<bg>wxSYS_COLOUR_MENUTEXT</bg>
+				<font>
+					<size>15</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<face>Nimbus Roman No9 L</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT_DOB">
+				<label>Birth Date</label>
+				<pos>32,544</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL_DOB">
+				<pos>168,536</pos>
+				<size>184,27</size>
+			</object>
+			<object class="wxStaticLine" name="ID_STATICLINE1">
+				<pos>360,64</pos>
+				<size>42,568</size>
+				<fg>wxSYS_COLOUR_MENUTEXT</fg>
+				<bg>wxSYS_COLOUR_CAPTIONTEXT</bg>
+				<style>wxLI_VERTICAL|wxDOUBLE_BORDER</style>
+			</object>
+			<object class="wxPanel" name="ID_PANEL1">
+				<pos>395,360</pos>
+				<size>304,112</size>
+				<hidden>1</hidden>
+				<object class="wxStaticText" name="ID_STATICTEXT19">
+					<label>Faculty Details</label>
+					<pos>8,8</pos>
+					<size>136,17</size>
+					<fg>wxSYS_COLOUR_3DDKSHADOW</fg>
+					<bg>wxSYS_COLOUR_MENUTEXT</bg>
+					<font>
+						<size>10</size>
+						<style>normal</style>
+						<weight>bold</weight>
+						<underlined>0</underlined>
+						<family>swiss</family>
+						<face>Sans</face>
+					</font>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT20">
+					<label>Employee Id</label>
+					<pos>8,32</pos>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL5">
+					<pos>128,24</pos>
+					<size>136,27</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT_DEPARTMENT">
+					<label>Department</label>
+					<pos>8,64</pos>
+					<size>88,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL_Department">
+					<pos>128,56</pos>
+					<size>136,27</size>
+				</object>
+			</object>
+			<object class="wxPanel" name="ID_PANEL2">
+				<pos>392,80</pos>
+				<size>328,216</size>
+				<object class="wxStaticText" name="ID_STATICTEXT14">
+					<label>Student Details</label>
+					<pos>8,8</pos>
+					<size>128,17</size>
+					<fg>wxSYS_COLOUR_3DDKSHADOW</fg>
+					<font>
+						<size>10</size>
+						<style>normal</style>
+						<weight>bold</weight>
+						<underlined>0</underlined>
+						<family>swiss</family>
+						<face>Sans</face>
+					</font>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT15">
+					<label>Registration Number</label>
+					<pos>8,40</pos>
+					<size>160,17</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT16">
+					<label>Father&apos;s Name</label>
+					<pos>8,80</pos>
+					<size>136,17</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT17">
+					<label>Father&apos;s Contact</label>
+					<pos>8,128</pos>
+					<size>136,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL1">
+					<pos>168,40</pos>
+					<size>136,27</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL2">
+					<pos>168,80</pos>
+					<size>136,27</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL3">
+					<pos>168,120</pos>
+					<size>136,27</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT18">
+					<label>Guardian Id</label>
+					<pos>8,168</pos>
+					<size>112,17</size>
+					<help>Enter guardian id if any.</help>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL4">
+					<pos>168,160</pos>
+					<size>136,27</size>
+				</object>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT_ADDITIONALDETAILS">
+				<label>Additonal Details</label>
+				<pos>400,48</pos>
+				<size>184,17</size>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+		</object>
+	</object>
+</resource>

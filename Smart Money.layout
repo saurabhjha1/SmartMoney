@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="NewRegisterForm.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="4660" topLine="84" />
+	</File>
+	<File name="NewRegisterForm.h" open="0" top="0" tabpos="7">
+		<Cursor position="416" topLine="75" />
+	</File>
+	<File name="Smart_MoneyApp.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="713" topLine="16" />
+	</File>
+	<File name="Smart_MoneyApp.h" open="0" top="0" tabpos="8">
+		<Cursor position="518" topLine="0" />
+	</File>
+	<File name="Smart_MoneyMain.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="7630" topLine="175" />
+	</File>
+	<File name="Smart_MoneyMain.h" open="0" top="0" tabpos="6">
+		<Cursor position="1639" topLine="34" />
+	</File>
+	<File name="TransactionForm.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="907" topLine="27" />
+	</File>
+	<File name="TransactionForm.h" open="1" top="0" tabpos="3">
+		<Cursor position="239" topLine="73" />
+	</File>
+	<File name="admin.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="1394" topLine="7" />
+	</File>
+	<File name="admin.h" open="0" top="0" tabpos="13">
+		<Cursor position="1537" topLine="26" />
+	</File>
+	<File name="bankaccounts.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="233" topLine="45" />
+	</File>
+	<File name="bankaccounts.h" open="0" top="0" tabpos="5">
+		<Cursor position="485" topLine="26" />
+	</File>
+	<File name="faculty.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3375" topLine="87" />
+	</File>
+	<File name="faculty.h" open="0" top="0" tabpos="6">
+		<Cursor position="1366" topLine="21" />
+	</File>
+	<File name="guardian.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="124" topLine="39" />
+	</File>
+	<File name="guardian.h" open="0" top="0" tabpos="11">
+		<Cursor position="1392" topLine="17" />
+	</File>
+	<File name="mydbsingleton.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="553" topLine="0" />
+	</File>
+	<File name="mydbsingleton.h" open="1" top="0" tabpos="6">
+		<Cursor position="600" topLine="3" />
+	</File>
+	<File name="myfunctionclass.cpp" open="1" top="1" tabpos="9">
+		<Cursor position="229" topLine="0" />
+	</File>
+	<File name="myfunctionclass.h" open="0" top="0" tabpos="14">
+		<Cursor position="298" topLine="0" />
+	</File>
+	<File name="student.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="370" topLine="0" />
+	</File>
+	<File name="student.h" open="0" top="0" tabpos="9">
+		<Cursor position="2076" topLine="23" />
+	</File>
+	<File name="user.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="959" topLine="49" />
+	</File>
+	<File name="user.h" open="0" top="0" tabpos="7">
+		<Cursor position="2503" topLine="42" />
+	</File>
+	<File name="wx_pch.h" open="1" top="0" tabpos="5">
+		<Cursor position="448" topLine="2" />
+	</File>
+</CodeBlocks_layout_file>

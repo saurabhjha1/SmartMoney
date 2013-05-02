@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_PANEL_TRANSACTION" class="wxPanel" variable="TransactionPanel" member="yes" />
+		<object name="ID_STATICLINE1" class="wxStaticLine" variable="StaticLine1" member="yes" />
+		<object name="ID_STATICTEXT1" class="wxStaticText" variable="StaticText_AccountDetails" member="yes" />
+		<object name="ID_STATICTEXT2" class="wxStaticText" variable="StaticText_CurrenBalance" member="yes" />
+		<object name="ID_STATICTEXT_BALANCEVALUE" class="wxStaticText" variable="StaticText_BalanceValue" member="yes" />
+		<object name="ID_STATICTEXT3" class="wxStaticText" variable="StaticText1" member="yes" />
+		<object name="ID_STATICTEXT4" class="wxStaticText" variable="StaticText2" member="yes" />
+		<object name="ID_STATICTEXT5" class="wxStaticText" variable="StaticText3" member="yes" />
+		<object name="ID_STATICTEXT6" class="wxStaticText" variable="StaticText4" member="yes" />
+		<object name="ID_TEXTCTRL1" class="wxTextCtrl" variable="TextCtrl_To_1" member="yes" />
+		<object name="ID_TEXTCTRL2" class="wxTextCtrl" variable="TextCtrl_To_amt_1" member="yes" />
+		<object name="ID_TEXTCTRL3" class="wxTextCtrl" variable="TextCtrl_To_2" member="yes" />
+		<object name="ID_TEXTCTRL4" class="wxTextCtrl" variable="TextCtrl_To_amt_2" member="yes" />
+		<object name="ID_TEXTCTRL5" class="wxTextCtrl" variable="TextCtrl_To_3" member="yes" />
+		<object name="ID_TEXTCTRL6" class="wxTextCtrl" variable="TextCtrl_To_Amt_3" member="yes" />
+		<object name="ID_STATICLINE2" class="wxStaticLine" variable="StaticLine2" member="yes" />
+		<object name="ID_STATICTEXT7" class="wxStaticText" variable="StaticText5" member="yes" />
+		<object name="ID_STATICTEXT8" class="wxStaticText" variable="StaticText6" member="yes" />
+		<object name="ID_TEXTCTRL7" class="wxTextCtrl" variable="TextCtrl_TransAccount" member="yes" />
+		<object name="ID_STATICTEXT9" class="wxStaticText" variable="StaticText7" member="yes" />
+		<object name="ID_TEXTCTRL8" class="wxTextCtrl" variable="TextCtrl_To_Amount" member="yes" />
+		<object name="ID_BUTTON1" class="wxButton" variable="SubmitTransfer" member="yes">
+			<handler function="OnSubmitTransferClick" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_STATICTEXT10" class="wxStaticText" variable="StaticText8" member="yes" />
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel_admin" member="yes" />
+		<object name="ID_STATICTEXT11" class="wxStaticText" variable="StaticText9" member="yes" />
+		<object name="ID_STATICTEXT12" class="wxStaticText" variable="statfrmaccount" member="yes" />
+		<object name="ID_TEXTCTRL9" class="wxTextCtrl" variable="TextCtrl_FrmAccnt_Admin" member="yes" />
+		<object name="ID_STATICTEXT13" class="wxStaticText" variable="StaticText10" member="yes" />
+		<object name="ID_TEXTCTRL10" class="wxTextCtrl" variable="TextCtrl_ToAccnt_Admin" member="yes" />
+		<object name="ID_STATICTEXT14" class="wxStaticText" variable="StaticText11" member="yes" />
+		<object name="ID_TEXTCTRL11" class="wxTextCtrl" variable="TextCtrl_Amt_Admin" member="yes" />
+		<object name="ID_BUTTON2" class="wxButton" variable="Button1" member="yes">
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_BUTTON3" class="wxButton" variable="Button_LoadDetails" member="yes">
+			<handler function="OnButton_LoadDetailsClick" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_STATICTEXT15" class="wxStaticText" variable="StaticText12" member="yes" />
+		<object name="ID_TEXTCTRL12" class="wxTextCtrl" variable="TextCtrl_Wamt" member="yes" />
+		<object name="ID_STATICTEXT16" class="wxStaticText" variable="StaticText13" member="yes" />
+		<object name="ID_BUTTON4" class="wxButton" variable="Button_Withdraw" member="yes">
+			<handler function="OnButton_WithdrawClick" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_STATICTEXT17" class="wxStaticText" variable="StaticText_proName" member="yes" />
+		<object name="ID_URL" class="wxHyperlinkCtrl" variable="" member="yes" />
+	</resource_extra>
+</wxsmith>

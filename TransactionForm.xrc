@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxFrame" name="TransactionForm">
+		<title>Transaction Panel</title>
+		<centered>1</centered>
+		<size>782,586</size>
+		<object class="wxPanel" name="ID_PANEL_TRANSACTION">
+			<pos>160,184</pos>
+			<size>782,552</size>
+			<object class="wxStaticLine" name="ID_STATICLINE1">
+				<pos>384,0</pos>
+				<size>24,584</size>
+				<fg>wxSYS_COLOUR_MENUTEXT</fg>
+				<bg>wxSYS_COLOUR_3DDKSHADOW</bg>
+				<style>wxLI_VERTICAL|wxDOUBLE_BORDER</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1">
+				<label>Account Details</label>
+				<pos>104,16</pos>
+				<size>168,17</size>
+				<font>
+					<size>14</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2">
+				<label>Current Balance</label>
+				<pos>16,128</pos>
+				<size>120,17</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT_BALANCEVALUE">
+				<label>0.00</label>
+				<pos>176,128</pos>
+				<size>104,17</size>
+				<fg>wxSYS_COLOUR_GRADIENTINACTIVECAPTION</fg>
+				<bg>wxSYS_COLOUR_INFOTEXT</bg>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3">
+				<label>Last three transaction history</label>
+				<pos>16,176</pos>
+				<size>320,17</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4">
+				<label>Account Information</label>
+				<pos>16,208</pos>
+				<size>144,17</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT5">
+				<label></label>
+				<pos>16,192</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT6">
+				<label>Amount</label>
+				<pos>176,208</pos>
+				<size>80,17</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1">
+				<pos>16,240</pos>
+				<size>120,27</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2">
+				<pos>176,240</pos>
+				<size>208,27</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL3">
+				<pos>16,280</pos>
+				<size>120,27</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL4">
+				<pos>176,280</pos>
+				<size>208,27</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL5">
+				<pos>16,328</pos>
+				<size>120,27</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL6">
+				<pos>176,328</pos>
+				<size>208,27</size>
+			</object>
+			<object class="wxStaticLine" name="ID_STATICLINE2">
+				<pos>8,368</pos>
+				<size>384,40</size>
+				<fg>wxSYS_COLOUR_3DDKSHADOW</fg>
+				<bg>wxSYS_COLOUR_3DDKSHADOW</bg>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT7">
+				<label>Transfer Money</label>
+				<pos>16,416</pos>
+				<size>152,17</size>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT8">
+				<label>To Account</label>
+				<pos>24,464</pos>
+				<size>96,17</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL7">
+				<maxlength>9</maxlength>
+				<pos>160,464</pos>
+				<size>120,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT9">
+				<label>Amount</label>
+				<pos>24,496</pos>
+				<size>104,17</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL8">
+				<pos>160,496</pos>
+				<size>120,27</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1">
+				<label>Transfer</label>
+				<pos>128,536</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT10">
+				<label>Additional Task</label>
+				<pos>424,168</pos>
+				<size>136,17</size>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxPanel" name="ID_PANEL1">
+				<pos>424,200</pos>
+				<size>336,376</size>
+				<hidden>1</hidden>
+				<object class="wxStaticText" name="ID_STATICTEXT11">
+					<label>Deposit Money</label>
+					<pos>96,16</pos>
+					<size>112,16</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT12">
+					<label>From Account</label>
+					<pos>8,56</pos>
+					<size>112,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL9">
+					<maxlength>9</maxlength>
+					<pos>136,48</pos>
+					<size>120,27</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT13">
+					<label>To Account</label>
+					<pos>8,96</pos>
+					<size>96,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL10">
+					<maxlength>9</maxlength>
+					<pos>136,88</pos>
+					<size>120,27</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT14">
+					<label>Amount</label>
+					<pos>8,128</pos>
+					<size>88,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL11">
+					<pos>136,128</pos>
+					<size>120,27</size>
+				</object>
+				<object class="wxButton" name="ID_BUTTON2">
+					<label>Deposit</label>
+					<pos>96,168</pos>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT18">
+					<label>Create Bank Account of User</label>
+					<pos>16,224</pos>
+					<size>312,17</size>
+				</object>
+				<object class="wxStaticText" name="ID_STATICTEXT19">
+					<label>User Id</label>
+					<pos>16,264</pos>
+					<size>112,17</size>
+				</object>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL13">
+					<maxlength>10</maxlength>
+					<pos>144,256</pos>
+					<size>176,27</size>
+				</object>
+				<object class="wxButton" name="ID_BUTTON_CREATE">
+					<label>Create</label>
+					<pos>104,312</pos>
+				</object>
+			</object>
+			<object class="wxButton" name="ID_BUTTON3">
+				<label>Load Details</label>
+				<pos>272,80</pos>
+				<size>104,29</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT15">
+				<label>Withdraw Money</label>
+				<pos>424,40</pos>
+				<size>160,17</size>
+				<bg>wxSYS_COLOUR_3DDKSHADOW</bg>
+				<font>
+					<size>10</size>
+					<style>normal</style>
+					<weight>bold</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL12">
+				<pos>512,80</pos>
+				<size>144,27</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT16">
+				<label>Amount</label>
+				<pos>424,80</pos>
+				<size>80,16</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON4">
+				<label>Withdraw</label>
+				<pos>568,120</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT17">
+				<label>Hi</label>
+				<pos>16,48</pos>
+				<size>88,17</size>
+				<fg>#0016FF</fg>
+				<bg>#000000</bg>
+				<font>
+					<size>12</size>
+					<style>slant</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>decorative</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT20">
+				<label>Account:</label>
+				<pos>16,88</pos>
+				<size>104,17</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT21">
+				<label></label>
+				<pos>144,88</pos>
+				<size>104,17</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON5">
+				<label>Log Out</label>
+				<pos>688,8</pos>
+			</object>
+		</object>
+	</object>
+</resource>

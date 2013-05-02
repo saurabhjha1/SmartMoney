@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_PANEL_REGISTER" class="wxPanel" variable="Panel1" member="yes">
+			<handler function="OnPanel1Paint" entry="EVT_PAINT" />
+		</object>
+		<object name="ID_STATICTEXT1" class="wxStaticText" variable="StaticText1" member="yes" />
+		<object name="ID_STATICTEXT2" class="wxStaticText" variable="StaticText2" member="yes" />
+		<object name="ID_TEXTCTRL_FIRSTNAME" class="wxTextCtrl" variable="TextCtrl_FirstName" member="yes" />
+		<object name="ID_STATICTEXT3" class="wxStaticText" variable="StaticText3" member="yes" />
+		<object name="ID_TEXTCTRL_LASTNAME" class="wxTextCtrl" variable="TextCtrl_LastName" member="yes" />
+		<object name="ID_STATICTEXT4" class="wxStaticText" variable="StaticText4" member="yes" />
+		<object name="ID_TEXTCTRL_ADDRESS" class="wxTextCtrl" variable="TextCtrl_Address" member="yes" />
+		<object name="ID_STATICTEXT5" class="wxStaticText" variable="StaticText5" member="yes" />
+		<object name="ID_TEXTCTRL_CITY" class="wxTextCtrl" variable="TextCtrl_City" member="yes" />
+		<object name="ID_STATICTEXT6" class="wxStaticText" variable="StaticText6" member="yes" />
+		<object name="ID_TEXTCTRL_STATE" class="wxTextCtrl" variable="TextCtrl_State" member="yes" />
+		<object name="ID_STATICTEXT7" class="wxStaticText" variable="StaticText7" member="yes" />
+		<object name="ID_TEXTCTRL_PIN" class="wxTextCtrl" variable="TextCtrl_Pin" member="yes" />
+		<object name="ID_STATICTEXT8" class="wxStaticText" variable="StaticText8" member="yes" />
+		<object name="ID_TEXTCTRL_MOBILE" class="wxTextCtrl" variable="TextCtrl_Mobile" member="yes" />
+		<object name="ID_STATICTEXT9" class="wxStaticText" variable="StaticText9" member="yes" />
+		<object name="ID_TEXTCTRL_EMAIL" class="wxTextCtrl" variable="TextCtrl_Email" member="yes" />
+		<object name="ID_STATICTEXT10" class="wxStaticText" variable="StaticText10" member="yes" />
+		<object name="ID_TEXTCTRL_PASSWORD" class="wxTextCtrl" variable="TextCtrl_Password" member="yes" />
+		<object name="ID_STATICTEXT11" class="wxStaticText" variable="StaticText11" member="yes" />
+		<object name="ID_TEXTCTRL_TRANSACTIONPIN" class="wxTextCtrl" variable="TextCtrl_TransPin" member="yes" />
+		<object name="ID_STATICTEXT12" class="wxStaticText" variable="StaticText_BloodGroup" member="yes" />
+		<object name="ID_TEXTCTRL_BLOOOUP" class="wxTextCtrl" variable="TextCtrl_BloodGroup" member="yes" />
+		<object name="ID_STATICTEXT13" class="wxStaticText" variable="StaticText_Type" member="yes" />
+		<object name="ID_CHOICE_TYPE" class="wxChoice" variable="Choice_Type" member="yes">
+			<handler function="OnChoice_TypeSelect" entry="EVT_CHOICE" />
+		</object>
+		<object name="ID_BUTTON_SUBMT" class="wxButton" variable="Button_Submit" member="yes">
+			<handler function="OnButton_SubmitClick" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_BUTTON_RESET" class="wxButton" variable="Button_Reset" member="yes" />
+		<object name="ID_STATICTEXT_DOB" class="wxStaticText" variable="StaticText_DOB" member="yes" />
+		<object name="ID_TEXTCTRL_DOB" class="wxTextCtrl" variable="TextCtrl_DOB" member="yes" />
+		<object name="ID_STATICLINE1" class="wxStaticLine" variable="StaticLine1" member="yes" />
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel_Faculty" member="yes" />
+		<object name="ID_STATICTEXT19" class="wxStaticText" variable="StaticTextFaculty" member="yes" />
+		<object name="ID_STATICTEXT20" class="wxStaticText" variable="StaticTextEmployeeID" member="yes" />
+		<object name="ID_TEXTCTRL5" class="wxTextCtrl" variable="TextCtrl_EmployeeID" member="yes" />
+		<object name="ID_STATICTEXT_DEPARTMENT" class="wxStaticText" variable="StaticTextDepartment" member="yes" />
+		<object name="ID_TEXTCTRL_Department" class="wxTextCtrl" variable="TextCtrl_Dept" member="yes" />
+		<object name="ID_PANEL2" class="wxPanel" variable="Panel_Student" member="yes" />
+		<object name="ID_STATICTEXT14" class="wxStaticText" variable="StaticText_Student" member="yes" />
+		<object name="ID_STATICTEXT15" class="wxStaticText" variable="StaticText_Registration" member="yes" />
+		<object name="ID_STATICTEXT16" class="wxStaticText" variable="StaticText_Father" member="yes" />
+		<object name="ID_STATICTEXT17" class="wxStaticText" variable="StaticText_FatherContact" member="yes" />
+		<object name="ID_TEXTCTRL1" class="wxTextCtrl" variable="TextCtrl_Registration" member="yes" />
+		<object name="ID_TEXTCTRL2" class="wxTextCtrl" variable="TextCtrl_GuardianName" member="yes" />
+		<object name="ID_TEXTCTRL3" class="wxTextCtrl" variable="TextCtrl_GuardianContact" member="yes" />
+		<object name="ID_STATICTEXT18" class="wxStaticText" variable="StaticText_GuardianId" member="yes" />
+		<object name="ID_TEXTCTRL4" class="wxTextCtrl" variable="TextCtrl_GuardianID" member="yes" />
+		<object name="ID_STATICTEXT_ADDITIONALDETAILS" class="wxStaticText" variable="StaticTextAdetails" member="yes" />
+	</resource_extra>
+</wxsmith>

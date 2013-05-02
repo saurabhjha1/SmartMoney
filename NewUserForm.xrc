@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxFrame" name="NewUserForm">
+		<title>User Registration Form</title>
+		<object class="wxPanel" name="ID_PANEL1">
+			<pos>0,24</pos>
+			<size>400,426</size>
+			<object class="wxStaticText" name="ID_STATICTEXT1">
+				<label>New user registration form</label>
+				<pos>72,8</pos>
+				<fg>wxSYS_COLOUR_3DDKSHADOW</fg>
+				<font>
+					<size>14</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2">
+				<label>First name</label>
+				<pos>16,32</pos>
+				<font>
+					<size>14</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>roman</family>
+					<face>Times New Roman</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3">
+				<label></label>
+				<pos>16,72</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4">
+				<label>Last name</label>
+				<pos>16,64</pos>
+				<size>72,17</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Sans</face>
+				</font>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1">
+				<value>Text</value>
+				<pos>120,32</pos>
+				<size>184,24</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2">
+				<value>Text</value>
+				<pos>120,64</pos>
+				<size>184,24</size>
+				<style>wxTE_PASSWORD</style>
+			</object>
+		</object>
+	</object>
+</resource>
