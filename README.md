@@ -6,6 +6,6 @@ An integrated money management portal for students, parents and universities. Sm
 
 Authors
 =======
-Saurabh Jha http://saurabhjha.in
+Saurabh Jha (http://saurabhjha.in)
 Ravi Kumar Singh
 Aman Singh
